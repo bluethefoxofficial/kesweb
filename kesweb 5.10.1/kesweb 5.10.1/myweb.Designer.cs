@@ -101,7 +101,7 @@
             this.panel4.Controls.Add(this.button8);
             this.panel4.Location = new System.Drawing.Point(7, 114);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(480, 310);
+            this.panel4.Size = new System.Drawing.Size(526, 310);
             this.panel4.TabIndex = 5;
             this.panel4.Visible = false;
             // 
@@ -153,8 +153,9 @@
             // 
             // button8
             // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(453, 3);
+            this.button8.Location = new System.Drawing.Point(503, 3);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(20, 23);
             this.button8.TabIndex = 0;
