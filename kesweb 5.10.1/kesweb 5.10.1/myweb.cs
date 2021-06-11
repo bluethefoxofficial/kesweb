@@ -40,9 +40,7 @@ namespace kesweb_5._10._1
         public void initbrowser()
         {
            
-            CefSettings cs = new CefSettings();
-
-            Cef.Initialize(cs);
+         
             chrome = new ChromiumWebBrowser("www.google.com");
             wbb.Controls.Add(chrome);
             chrome.Dock = DockStyle.Fill;

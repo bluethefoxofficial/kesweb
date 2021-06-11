@@ -16,7 +16,11 @@ namespace kesweb_5._10._1
         public Form1()
         {
             InitializeComponent();
-         
+            CefSettings cs = new CefSettings();
+
+            Cef.Initialize(cs);
+            Cef.EnableHighDPISupport();
+
         }
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
@@ -54,6 +58,7 @@ namespace kesweb_5._10._1
             myweb mw = new myweb();
             tabscontrol.SelectedTab.Controls.Add(mw);
             mw.Dock = DockStyle.Fill;
+
         }
 
         private void tabscontrol_SelectedIndexChanged(object sender, EventArgs e)
